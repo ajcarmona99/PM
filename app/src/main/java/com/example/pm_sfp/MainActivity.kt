@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
 import com.example.pm_sfp.interfaces.AppNav
+import com.example.pm_sfp.interfaces.AudioScreen
 import com.example.pm_sfp.interfaces.PermissionDemoScreen
 import com.example.pm_sfp.ui.theme.PM_SFPTheme
 
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            PermissionDemoScreen()
+            AudioScreen()
             }
         }
     }
