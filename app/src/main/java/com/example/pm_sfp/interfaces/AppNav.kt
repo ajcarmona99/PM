@@ -20,7 +20,7 @@ fun AppNav(navController: NavHostController){
         composable(Routes.HOME) {HomeScreen(navController)}
         composable(Routes.AUDIO) {AudioScreen()}
         composable(Routes.CAMERA) {CameraScreen()}
-        composable(Routes.IMAGE) { ImageScreen()}
+        composable(Routes.IMAGE) {ImageScreen()}
         composable(Routes.VIDEO) {VideoScreen()}
     }
 }
