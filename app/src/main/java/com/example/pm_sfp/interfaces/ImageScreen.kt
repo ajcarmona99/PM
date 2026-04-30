@@ -58,10 +58,14 @@ fun ImageScreen(){
 
             Button(onClick = {
                 val src = original
-                status = "Procesando(gris)..."
-                original = null
-                //processed = gray.apply(src)
-                status = "Procesada:Gris"
+
+                if (src != null){
+                    status = "Procesando (gris)..."
+                    processed = gray.apply(src)
+                    status = "Procesada: Gris"
+                } else{
+                    status = "Primero carga una imagen"
+                }
             }) {Text("Gris") }
         }
 
@@ -84,7 +88,7 @@ fun ImageScreen(){
 
             processed?.let {
                 Column(Modifier.weight(1f)) {
-                    Text(("Original"))
+                    Text(("Gris"))
                     androidx.compose.foundation.Image(
                         bitmap = it.asImageBitmap(),
                         contentDescription = null,
