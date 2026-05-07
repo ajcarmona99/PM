@@ -12,6 +12,8 @@ object Routes{
     const val CAMERA = "camera"
     const val IMAGE = "image"
     const val VIDEO = "video"
+
+    const val ANIMATION = "animaciones"
 }
 
 @Composable
@@ -22,5 +24,6 @@ fun AppNav(navController: NavHostController){
         composable(Routes.CAMERA) {CameraScreen()}
         composable(Routes.IMAGE) {ImageScreen()}
         composable(Routes.VIDEO) {VideoScreen()}
+        composable(Routes.ANIMATION){AnimationsScreen()}
     }
 }

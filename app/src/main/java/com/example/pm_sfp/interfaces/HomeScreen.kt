@@ -24,5 +24,6 @@ fun HomeScreen(navController: NavHostController){
         androidx.compose.material3.Button(onClick = {navController.navigate(Routes.CAMERA)}) {Text("Camara") }
         androidx.compose.material3.Button(onClick = {navController.navigate(Routes.IMAGE)}) {Text("Imagen") }
         androidx.compose.material3.Button(onClick = {navController.navigate(Routes.VIDEO)}) {Text("Video") }
+        androidx.compose.material3.Button(onClick = {navController.navigate(Routes.ANIMATION)}) {Text("Animaciones") }
     }
 }
