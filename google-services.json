@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "112226334584",
-    "project_id": "clasefirebase-71842",
-    "storage_bucket": "clasefirebase-71842.firebasestorage.app"
+    "project_number": "293336241328",
+    "project_id": "sesion11pm",
+    "storage_bucket": "sesion11pm.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:112226334584:android:140157775be14b29e3ba8d",
+        "mobilesdk_app_id": "1:293336241328:android:84c394665b2e38f2199775",
         "android_client_info": {
           "package_name": "com.example.pm_sfp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAYKDwko_nimJNtkbpz5zoQqhixSJDuIXU"
+          "current_key": "AIzaSyAFTOpOr-BQfK2bX5sSy5mnLQOR8MF6nmM"
         }
       ],
       "services": {
